@@ -84,4 +84,15 @@ public String saveEmployee(@ModelAttribute Employee employee,Model model) {
 		service.updateEmployee(employee);
 		return"redirect:all";
 	}
+<<<<<<< Updated upstream
+	//task-321
+	public void m2(){
+		//logic
+	}
+=======
+	//public void m1(){
+	int i=10;
+int j=20;
+>>>>>>> Stashed changes
 }
+
