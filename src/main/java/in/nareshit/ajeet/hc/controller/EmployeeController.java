@@ -88,6 +88,7 @@ public String saveEmployee(@ModelAttribute Employee employee,Model model) {
 	//task-321
 	public void m2(){
 		//logic
+	String name ="Ajeet";
 	}
 =======
 	//public void m1(){
