@@ -28,7 +28,7 @@ public class EmployeeController {
 	 */
 	@PostMapping("/save")
 public String saveEmployee(@ModelAttribute Employee employee,Model model) {
-		System.out.println(model.getClass().getName());
+		System.out.println(model.getClass().getname());
 		Integer id = service.saveEmployee(employee);
 		String message="Employee'"+id+"'Created";
 		model.addAttribute("message", message);

@@ -17,14 +17,14 @@ public class Employee {
 	@Id
 	@GeneratedValue
 	@Column(name="eid")
-	private Integer id;
+	private Integer Id;
 	@Column(name="ename")
-	private String empName;
+	private String empname;
 	@Column(name="esal")
 	private Double empSal;
 	@Column(name="eaddr")
 	private String empAddr;
-	@Column(name="empDept")
+	@Column(name="empdept")
 	private String empDept;
 
 }
